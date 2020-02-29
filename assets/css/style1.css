@@ -201,7 +201,7 @@ input[type=text], select, textarea {
     }
     
     .text1 {
-        display: 
+        width: 100%; 
     }
     
     .contents {
@@ -215,6 +215,9 @@ input[type=text], select, textarea {
         height: auto;
     }
 
-}
+    footer {
+        position: relative;
+    }
+
 }
 
