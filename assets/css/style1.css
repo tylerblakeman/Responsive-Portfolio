@@ -178,4 +178,43 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
 
+@media only screen and (max-width: 640px) {
+
+    .brand {
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        padding: auto;
+        background-color:#4AAAA5;
+        margin-left: 10px;
+        justify-content: center;
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .links {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text1 {
+        display: 
+    }
+    
+    .contents {
+        margin: 15px;
+    }
+    .text1 img {
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+}
 
