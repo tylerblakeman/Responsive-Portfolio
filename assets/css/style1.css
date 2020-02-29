@@ -1,0 +1,181 @@
+
+html {
+    overflow-y: scroll;
+  }
+
+nav, div, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.border {
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-bottom-width: 2px;
+    margin: 0px;
+}
+
+.brand {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px;
+    background-color:#4AAAA5;
+    margin-left: 10px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.navDiv {
+    display: flex;
+    flex-direction: row;
+    max-width: 980px;
+    justify-content: space-between;
+    flex-flow: wrap;
+    justify-items: center;
+    margin: auto;
+    background-color: #ffffff;
+}
+.links {
+    display: flex;
+    padding: 10px 0px 10px 10px;
+    flex-flow: wrap;
+
+}
+
+.links a {
+    margin-right: 20px;
+    border-right: solid;
+    padding-right: 20px;
+    border-right-width: 1px;
+    align-content: center;
+    margin-left: 10px;
+    color: #777777;
+}
+
+.noborder a {
+    margin-right: 10px;
+    border: none;
+    padding-right: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contents {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 960px;
+    justify-content: space-around;
+    flex-flow: wrap;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    padding: 20px;
+    font-size: .25em;
+    border-top-style: solid;
+    border-top-color:#4AAAA5;
+    border-top-width: 5px;
+    background-color: #666666;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: darkgrey;
+    margin: 10px;
+    font-size: .75em;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contents {
+    display: flex;
+    justify-content: left;
+}
+
+.text {
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.text1 {
+    margin: 0px;
+    align-items: bottom;
+    justify-content: center;
+    margin: 20px;
+    max-width: 960px;
+}
+    
+.text1 img {
+    margin: 20px;
+    padding: 0px;
+    border-radius: 15px;
+    width: auto;
+    height: 200px;
+    float: left;
+}
+
+
+.float {
+    overflow-wrap: normal;
+}
+
+img {
+    padding: 20px;
+    height: 200px;
+    width: auto;
+}
+
+form {
+    margin: 20px;
+}
+
+/* this was taken from w3 schools */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4AAAA5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+
